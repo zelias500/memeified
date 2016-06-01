@@ -1,6 +1,6 @@
 {
   "name": "Memeify",
-  "description": "Allows user to edit/memeify any image they encounter and upload it to Imgur",
+  "description": "Streamlined image editing and uploading via Imgur",
   "version": "1.0",
 
   "background" : {

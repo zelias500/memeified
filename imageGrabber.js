@@ -1,4 +1,4 @@
-var auth = "Client-ID c9d0c2b7efcd300"
+var auth = "Client-ID 9d25afc66b7c110"
 function imgurHost (imageID){
 	$.ajax({
 		url:"https://api.imgur.com/3/image/",
@@ -19,7 +19,7 @@ $(document).ready(function(){
 	var imgUrl = window.location.hash.substring(1)
 	var img = $('<img>', {src: imgUrl, id: 'image'})
 	var editor = new Aviary.Feather({
-		apiKey: "9a5e9870aaca4757bd150236e3605016",
+		apiKey: "6f1fb81092c749be87bc066d6a4b29c8",
 		tools:['meme', 'text', 'stickers', 'draw', 'effects', 'resize', 'enhance', 'frames', 'overlays', 'crop', 'color', 'orientation', 'lighting'],
 		onSave: function(imageID, newURL){
 			console.log(newURL)
